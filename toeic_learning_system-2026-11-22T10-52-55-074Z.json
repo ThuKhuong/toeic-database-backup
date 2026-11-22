@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-11-22T10:52:55.575Z",
+  "database": "toeic_learning_system",
+  "format": "PostgreSQL custom archive",
+  "file": "toeic_learning_system-2026-11-22T10-52-55-074Z.dump",
+  "bytes": 920344,
+  "sha256": "8714c955b3f3b42946f94984f9239c50b3241356979c5ed3f60918e2eacb0027",
+  "table_data_entries": 32,
+  "private_repository": "https://github.com/ThuKhuong/toeic-database-backup",
+  "contains_real_learner_data": true,
+  "owner_and_privileges_excluded": true,
+  "verification": "pg_restore --list succeeded; restore has not been tested",
+  "restore_command": "pg_restore --no-owner --no-acl --exit-on-error --dbname <EMPTY_NEW_DATABASE> toeic_learning_system-2026-11-22T10-52-55-074Z.dump"
+}
